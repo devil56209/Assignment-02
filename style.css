@@ -1,4 +1,4 @@
-*{
+*{  max-width: 100%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -20,9 +20,10 @@
     display: flex;
 }
 .main-container{
-    max-width: 1440px;
+    max-width: 1140px;
+    margin: auto;
     background-color: rgb(245, 248, 255);
-    margin: 0 auto;
+    
     
 }
 
@@ -86,9 +87,10 @@ align-items: center;
     width: 100%;
 }
 .banner-description{
-    width: 100%;
+    width: 60%;
     color: rgba(0, 0, 0, 0.5);
     font-weight: 400;
+
 
 }
 /* main  */
@@ -121,7 +123,7 @@ align-items: center;
 }
 .flower{
     text-align: center;
-}
+} 
 .flower img{
     width: 100%;
 }
@@ -130,6 +132,39 @@ align-items: center;
     color: rgb(17, 17, 17);
     font-weight: 700;
 
+}
+
+/* plants lover section */
+
+.plants-lover{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    gap: 100px;
+    
+
+}
+.plants-lover-image img{
+    max-width: 100%;
+    
+}
+.lover-container-left{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+
+}
+.lover-container-title{
+    color: rgb(0, 0, 0);;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: left;
+}
+.plants-lover-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
 }
     
 
@@ -151,6 +186,9 @@ align-items: center;
 
 
 @media screen and (max-width: 576px){
+    .main-container{
+        width: 97%;
+    }
     .primary-bg{
         margin: 16px;
     }
@@ -173,6 +211,10 @@ align-items: center;
     grid-template-columns: repeat(2, 1fr);
     
 }
+.plants-lover{
+    flex-direction: column;
+}
+
 
 
 
