@@ -256,9 +256,31 @@ align-items: center;
     padding: 8px 20px 8px 20px;
     
 }
-
-
-
+/* footer */
+.footer-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.footer-items ul{
+    list-style: none;
+    
+}
+.footer-item{
+    margin-bottom: 35px;
+}
+.footer-item a{
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+  
+}
+.footer-description{
+    color: rgb(137, 135, 161);
+    margin-top: 20px;
+}
 
 
 
@@ -316,6 +338,10 @@ align-items: center;
 }
 .badge{
     display: none;
+}
+.footer-container{
+    flex-direction: column;
+
 }
 
 
