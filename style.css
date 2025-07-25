@@ -1,3 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 248, 255);
+    font-family: "Work Sans", sans-serif;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 .work-sans-font{
@@ -11,17 +19,25 @@
 .display-flex{
     display: flex;
 }
-.primary-bg{
-    background-color: rgb(245, 248, 255);
+.main-container{
     max-width: 1440px;
-    margin: 0 150px;
+    background-color: rgb(245, 248, 255);
+    margin: 0 auto;
     
-
-
 }
+
+
 .text-color-orange{
     color: rgb(233, 90, 8);
 }
+.btn-primary{
+    background: rgb(233, 90, 8);
+    color: white;
+    width: 100%;
+    height: 50px;
+    border: none;
+}
+
 
 
 /* header styles */
@@ -61,16 +77,16 @@ align-items: center;
     text-wrap: none;
     font-weight: 700;
     font-size: 65px;
-    width: 500px;
+    width: 100%;
     
 
 
 }
 .banner-img{
-    width: 500px;
+    width: 100%;
 }
 .banner-description{
-    width: 500px;
+    width: 100%;
     color: rgba(0, 0, 0, 0.5);
     font-weight: 400;
 
@@ -80,14 +96,42 @@ align-items: center;
     color: rgba(0, 0, 0, 0.5);
     font-weight: 400;
     font-size: 18px;
+    gap: 16px;
+    margin-bottom: 50px;
 }
 .plants-container{
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16;
+    margin-top: 50px;
 
 }
+
+.container-flower{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 0;
+    
+    
+
+}
+.flower{
+    text-align: center;
+}
+.flower img{
+    width: 100%;
+}
+
+.flower-price{
+    color: rgb(17, 17, 17);
+    font-weight: 700;
+
+}
+    
 
 
 
@@ -124,6 +168,12 @@ align-items: center;
     width: 190px;
     margin-top: 25px;
 }
+.container-flower{
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
 
 
 
