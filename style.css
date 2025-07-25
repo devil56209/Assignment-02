@@ -184,6 +184,15 @@ align-items: center;
     color: rgba(0, 0, 0, 0.5);
     
 }
+.badge{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    background: transparent;
+    margin-left: 190px;
+    margin-top: -70px;
+    
+}
 
     
 /* latest deals */
@@ -305,7 +314,9 @@ align-items: center;
 .join-bunch-container h1{
     font-size: 25px;
 }
-
+.badge{
+    display: none;
+}
 
 
 
