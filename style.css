@@ -37,6 +37,15 @@
     width: 100%;
     height: 50px;
     border: none;
+    cursor: pointer;
+}
+.btn-secondary{
+    background: rgb(233, 90, 8);
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 8px 20px 8px 20px;
+    font-weight: bold
 }
 
 
@@ -110,6 +119,10 @@ align-items: center;
     margin-top: 50px;
 
 }
+.plants-container h2{
+    font-size: 50px;
+    font-weight: 700;
+}
 
 .container-flower{
     width: 100%;
@@ -148,6 +161,9 @@ align-items: center;
     max-width: 100%;
     
 }
+.plants-h1-second-line{
+    display: block;
+}
 .lover-container-left{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -160,19 +176,77 @@ align-items: center;
     font-weight: 700;
     line-height: 68px;
     text-align: left;
+    margin-bottom: 10px;
 }
 .plants-lover-description{
     font-size: 20px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
-}
     
+}
+
+    
+/* latest deals */
+
+.deals-container{
+    margin-top: 120px;
+    align-items: center;
+    text-align: center;
+}
+.deals-container h2{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.deals-container-description{
+     font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+}
 
 
+/* join bunch */
+.join-bunch-container{
+    
+     background-image:  url(./assets/news-letter-bg.png);
+     background-color: rgba(7, 51, 79, 0.4);
+     background-size: cover;
+     background-position: center;
+     max-width: 100%;
+     height: 540px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    
+}
+.join-bunch-container h1{
+    background: transparent;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+.bunch-area{
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    overflow: hidden;
+}
 
-
-
-
+.bunch-area-mail{
+    border: none;
+    outline: none;
+    width: 100%;
+    max-width: 600px;
+    padding: 8px 20px 8px 20px;
+    
+}
 
 
 
@@ -214,9 +288,23 @@ align-items: center;
 .plants-lover{
     flex-direction: column;
 }
+.lover-container-title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
 
+}
+.plants-h1-second-line{
+    display: inline;
+}
 
-
+.bunch-area{
+    width: 80%;
+}
+.join-bunch-container h1{
+    font-size: 25px;
+}
 
 
 
